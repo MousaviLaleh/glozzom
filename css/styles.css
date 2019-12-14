@@ -1,16 +1,30 @@
+
+body{
+  background-color: beige;
+  /* font-family: 'Scheherazade', serif; */
+}
+
+/* .container{
+  margin-top: 70px;
+} */
+
+.navbar{
+  padding-right: 150px;
+  padding-left: 150px;
+}
 .navbar .nav-link {
   font-size: 17px;
   padding-left: 1rem !important;
   padding-right: 1rem !important; }
 
 .navbar .nav-item.active {
-  border-left: #555 3px solid; }
+  border-right: rgb(184, 202, 186) 3px solid; }
 
 .carousel-item {
-  height: 450px; }
+  height: 650px; }
 
 .carousel-image-1 {
-  background: url("../img/image1.jpg");
+  background: url("../img/image1.png");
   background-size: cover; }
 
 .carousel-image-2 {
@@ -21,18 +35,48 @@
   background: url("../img/image3.jpg");
   background-size: cover; }
 
-#home-icons .fa-cloud {
+.carousel-image-4 {
+  background: url("../img/image4.jpg");
+  background-size: cover; }
+
+.carousel-image-5 {
+  background: url("../img/image5.jpg");
+  background-size: cover; }
+
+.carousel-image-6 {
+  background: url("../img/image6.jpg");
+  background-size: cover; }
+
+.img-title{
+  width: 800px;
+}
+
+.card-body{
+  font-family: Scheherazade;
+  font-size: 18px;
+}
+/* #home-icons .fa-cloud {
   font-size: 55px; }
 
 #home-icons .fa-cog {
   font-size: 55px; }
 
 #home-icons .fa-cart-plus {
-  font-size: 55px; }
+  font-size: 55px; } */
+
+#home-body {
+  position: relative;
+  min-height: 150px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  color: #fff; }
 
 #home-heading {
   position: relative;
-  min-height: 200px;
+  min-height: 150px;
   background: url("../img/lights.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -40,8 +84,20 @@
   text-align: center;
   color: #fff; }
 
+#joke{
+  position: relative;
+  margin-top: 50px;
+  min-height: 130px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff; }
+
+
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(238, 241, 235, 0.7);
   position: absolute;
   top: 0;
   left: 0;
