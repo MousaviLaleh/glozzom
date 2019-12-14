@@ -1,12 +1,8 @@
 
 body{
   background-color: beige;
-  /* font-family: 'Scheherazade', serif; */
 }
 
-/* .container{
-  margin-top: 70px;
-} */
 
 .navbar{
   padding-right: 150px;
@@ -55,14 +51,6 @@ body{
   font-family: Scheherazade;
   font-size: 18px;
 }
-/* #home-icons .fa-cloud {
-  font-size: 55px; }
-
-#home-icons .fa-cog {
-  font-size: 55px; }
-
-#home-icons .fa-cart-plus {
-  font-size: 55px; } */
 
 #home-body {
   position: relative;
